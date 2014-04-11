@@ -4,8 +4,11 @@ html .home {
 	min-height: 100%;
 }
 
-.introduction {
+section {
 	padding: 5rem;
+}
+
+.introduction {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
 	margin-top: 3rem;
 	border: 3px solid #483736;
@@ -15,6 +18,12 @@ html .home {
 
 .logo {
 	width: 20rem;
+}
+
+.introduction__footer {
+	margin-bottom: 3rem;
+	min-height: 100%;
+	padding: 0 5rem 1rem 5rem;
 }
 
 
