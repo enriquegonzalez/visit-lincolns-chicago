@@ -17,10 +17,9 @@ section {
 	width: 75%
 }
 
-.logo--museum {
+.logo {
 	width: 20rem;
 	margin-bottom: 2rem;
-	margin-top: 0;
 }
 
 .home__title {
@@ -42,7 +41,6 @@ p.lead {
 .logo--sponsor {
 	width: 50%;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 
 .button--see-tour-list {
