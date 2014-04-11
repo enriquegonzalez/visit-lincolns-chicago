@@ -8,7 +8,7 @@ section {
 	padding: 5rem;
 }
 
-.introduction {
+.home__overview {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
 	margin-top: 3rem;
 	border: 3px solid  hsla(3, 14%, 25%, 1.0);;
@@ -17,9 +17,10 @@ section {
 	width: 75%
 }
 
-.logo {
+.logo--museum {
 	width: 20rem;
 	margin-bottom: 2rem;
+	margin-top: 0;
 }
 
 .home__title {
@@ -32,14 +33,13 @@ p.lead {
 	font-size: 1.45rem;
 }
 
-.introduction__footer {
+.overview__footer {
 	min-height: 100%;
 	padding: 0 5rem 1rem 5rem;
 	margin-top: 5rem;
 }
 
 .logo--sponsor {
-	display: block;
 	width: 50%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -47,6 +47,10 @@ p.lead {
 
 .button--see-tour-list {
 	margin-top: 1rem;
+}
+
+.overview__footer--copyright {
+	font-size: .7rem;
 }
 
 
