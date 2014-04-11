@@ -1,0 +1,12 @@
+html .home {
+	background: url(../img/backgrounds/shermanhouse.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+section {
+	padding: 5rem;
+}
+
+.logo {
+	width: 20rem;
+}
