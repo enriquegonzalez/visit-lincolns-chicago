@@ -23,12 +23,25 @@ section {
 
 .logo {
 	width: 20rem;
+	margin-bottom: 2rem;
+}
+
+.home__title {
+	font-size: 5rem;
+	margin-bottom: 1rem;
 }
 
 .introduction__footer {
-	margin-bottom: 3rem;
 	min-height: 100%;
 	padding: 0 5rem 1rem 5rem;
+	margin-top: 5rem;
+}
+
+.logo--sponsor {
+	display: block;
+	width: 50%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 
