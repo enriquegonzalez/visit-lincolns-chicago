@@ -1,15 +1,26 @@
 html .home {
 	background: url(../img/backgrounds/shermanhouse.jpg) no-repeat center center fixed;
 	background-size: cover;
+	min-height: 100%;
+}
+
+.home {
+	padding: 2rem;
 }
 
 section {
 	padding: 5rem;
+	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
+	margin-top: 3rem;
+	border: 3px solid #483736;
+	outline: 2px solid #483736;
+	outline-offset: -9px;
 }
 
 .logo {
 	width: 20rem;
 }
+
 
 // Small screens
 @media only screen { } /* Define mobile styles */
