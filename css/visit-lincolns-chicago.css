@@ -13,18 +13,20 @@ section {
 	padding: 5rem;
 }
 
-.home__overview {
-	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
-	margin-top: 3rem;
-	border: 3px solid  hsla(3, 14%, 25%, 1.0);;
-	outline: 2px solid  hsla(3, 14%, 25%, 1.0);;
-	outline-offset: -9px;
-	width: 75%
+footer {
+	margin-top: 5rem;
+	min-height: 100%;
 }
+
 
 .logo {
 	width: 20rem;
 	margin-bottom: 2rem;
+}
+
+.logo--sponsor {
+	width: 10rem;
+	padding-top: 1rem;
 }
 
 .home__title {
@@ -33,26 +35,27 @@ section {
 	font-family: "Adobe Caslon Pro"
 }
 
-p.lead {
+.lead {
 	font-size: 1.45rem;
 }
 
-.overview__footer {
-	min-height: 100%;
-	padding: 0 5rem 1rem 5rem;
-	margin-top: 5rem;
-}
-
-.logo--sponsor {
-	width: 50%;
-	padding-top: 1rem;
+.overview {
+	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
+	margin-top: 3rem;
+	border: 3px solid  hsla(3, 14%, 25%, 1.0);;
+	outline: 2px solid  hsla(3, 14%, 25%, 1.0);;
+	outline-offset: -9px;
 }
 
 .button--see-tour-list {
 	margin-top: 1rem;
 }
 
-.overview__footer--copyright {
+.footer--overview {
+	padding: 0 5rem 1rem 5rem;
+}
+
+.footer--overview__copyright {
 	font-size: .7rem;
 }
 
