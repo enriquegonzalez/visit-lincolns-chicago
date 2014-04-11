@@ -11,9 +11,10 @@ section {
 .introduction {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
 	margin-top: 3rem;
-	border: 3px solid #483736;
-	outline: 2px solid #483736;
+	border: 3px solid  hsla(3, 14%, 25%, 1.0);;
+	outline: 2px solid  hsla(3, 14%, 25%, 1.0);;
 	outline-offset: -9px;
+	width: 75%
 }
 
 .logo {
@@ -24,6 +25,11 @@ section {
 .home__title {
 	font-size: 5rem;
 	margin-bottom: 1rem;
+	font-family: "Adobe Caslon Pro"
+}
+
+p.lead {
+	font-size: 1.45rem;
 }
 
 .introduction__footer {
@@ -37,6 +43,10 @@ section {
 	width: 50%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.button--see-tour-list {
+	margin-top: 1rem;
 }
 
 
