@@ -4,11 +4,7 @@ html .home {
 	min-height: 100%;
 }
 
-.home {
-	padding: 2rem;
-}
-
-section {
+.introduction {
 	padding: 5rem;
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
 	margin-top: 3rem;
