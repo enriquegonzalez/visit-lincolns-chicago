@@ -25,6 +25,10 @@ footer {
 	height: 50rem;
 }
 
+.tour__information {
+	text-align: right;
+}
+
 .tour--heart-of-chicago {
 	background: url(../img/backgrounds/heart-of-chicago.jpg) no-repeat center center;
 	background-size: cover;
@@ -98,6 +102,7 @@ footer {
 
 .button--see-tours {
 	margin: 0 10rem 2rem 0;
+	font-size: 1.3rem;
 }
 
 
