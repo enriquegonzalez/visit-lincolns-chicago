@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 html .home {
 	background: url(../img/backgrounds/shermanhouse.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -17,8 +21,12 @@ footer {
 	min-height: 100%;
 }
 
+.tour {
+	height: 50rem;
+}
+
 .tour--heart-of-chicago {
-	background: url(../img/backgrounds/heart-of-chicago.jpg) no-repeat center center fixed;
+	background: url(../img/backgrounds/heart-of-chicago.jpg) no-repeat center center;
 	background-size: cover;
 	min-height: 100%;
 }
