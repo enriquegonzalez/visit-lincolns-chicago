@@ -31,6 +31,24 @@ footer {
 	min-height: 100%;
 }
 
+.tour--commercial-district {
+	background: url(../img/backgrounds/commercial-district.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.tour--cultural-attractions {
+	background: url(../img/backgrounds/cultural-attractions.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.tour--waterways {
+	background: url(../img/backgrounds/chicagos-waterways.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+}
+
 
 .logo {
 	width: 20rem;
