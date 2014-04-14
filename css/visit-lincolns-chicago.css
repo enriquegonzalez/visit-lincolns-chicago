@@ -49,6 +49,17 @@ footer {
 	min-height: 100%;
 }
 
+.tour--churches {
+	background: url(../img/backgrounds/churches-and-neighborhoods.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.tour--south-side {
+	background: url(../img/backgrounds/south-side.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+}
 
 .logo {
 	width: 20rem;
