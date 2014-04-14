@@ -31,9 +31,9 @@ footer {
 .overview {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
 	margin-top: 3rem;
-	border: 3px solid  hsla(3, 14%, 25%, 1.0);;
-	outline: 2px solid  hsla(3, 14%, 25%, 1.0);;
-	outline-offset: -9px;
+	border: 3px solid hsla(3, 14%, 25%, 1.0);;
+	outline: 2px solid hsla(3, 14%, 25%, 1.0);;
+	outline-offset: -10px;
 }
 
 .overview__title {
