@@ -152,32 +152,7 @@ html .tours {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.7);
 }
 
-.overview__title {
-	font-family: "Adobe Caslon Pro";
-	font-size: 6rem;
-	font-weight: 600;
-	margin-bottom: 1rem;
-	text-align: center;
-}
 
-.overview__lead {
-	font-size: 1.45rem;
-}
-
-.home__title {
-	font-family: "Adobe Caslon Pro";
-	font-size: 4rem;
-	font-weight: 600;
-}
-
-.button--see-tours {
-	margin: 0 10rem 2rem 0;
-	font-size: 1.3rem;
-}
-
-.footer--overview__copyright {
-	font-size: .7rem;
-}
 
 
 // Small screens
