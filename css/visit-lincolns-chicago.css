@@ -23,7 +23,7 @@ footer {
 }
 
 	.logo--museum {
-		margin: 0;
+		margin: 0 0 2rem 0;
 	}
 
 	.logo--sponsor {
@@ -32,12 +32,12 @@ footer {
 
 .menu {
 	list-style: none;
-	margin: 2rem 0 2rem 0;
+	margin: 0;
 }
 
 	.menu--site__item {
 		display: inline-block;
-		padding: 1rem;
+		padding: 0 1rem;
 	}
 
 	.menu--tours__item {
@@ -174,7 +174,10 @@ html .tours {
 }
 
 
-
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	background: hsla(39, 86.8020%, 61.3725%, 1);
+	padding: 0;
+}
 
 // Small screens
 @media only screen { } /* Define mobile styles */
