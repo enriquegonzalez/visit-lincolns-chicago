@@ -1,17 +1,13 @@
+@font-face {
+	font-family: "Adobe Caslon Pro";
+	src: url(../fonts/ACaslonPro-Regular.otf);
+}
+
 html, body {
   height: 100%;
+  min-height: 100%;
 }
 
-html .home {
-	background: url(../img/backgrounds/shermanhouse.jpg) no-repeat center center fixed;
-	background-size: cover;
-	min-height: 100%;
-}
-
-html .tours {
-	background-color: hsla(39, 86.8020%, 61.3725%, 1);
-	min-height: 100%;
-}
 
 section {
 	padding: 5rem;
@@ -21,36 +17,81 @@ footer {
 	min-height: 100%;
 }
 
-@font-face {
+
+.logo {
+	width: 20rem;
+	margin: 2rem;
+}
+
+	.logo--museum {
+		margin: 0 0 2rem 0;
+	}
+
+	.logo--sponsor {
+		width: 10rem;
+	}
+
+
+.title {
 	font-family: "Adobe Caslon Pro";
-	src: url(../fonts/ACaslonPro-Regular.otf);
+}
+	
+	.title--site {
+		font-weight: 600;
+	}
+
+	.title--site--home {
+		font-size: 6rem;
+		text-align: center;
+	}
+
+	.title--tour {
+
+	}
+
+
+.section__lead {
+	font-size: 1.45rem;
+} 
+
+
+.button {
+	box-shadow: 2rem 2rem 2rem;
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: hsla(0, 32%, 52%, 1);
+}
+
+
+.copyright {
+	font-size: .7rem;
+}
+
+
+
+
+
+html .home {
+	background: url(../img/backgrounds/shermanhouse.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.home__overview {
+	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
+	margin-top: 3rem;
+	border: 2px solid hsla(3, 14%, 25%, 1.0);
+	outline: 1px solid hsla(3, 14%, 25%, 1.0);
+	outline-offset: -10px;
+}
+
+
+
+html .tours {
+	background-color: hsla(39, 86.8020%, 61.3725%, 1);
 }
 
 .tour {
 	height: 50rem;
-}
-
-.tour__information {
-	height: 15rem;
-	text-align: right;
-	width: auto;
-	position: absolute;
-	right: 0;
-	margin-right: 4rem;
-	padding: 2rem;
-	border: 2px solid hsla(3, 14%, 25%, 1.0);;
-	outline: 1px solid hsla(3, 14%, 25%, 1.0);;
-	outline-offset: -10px;
-	background-color: hsla(39, 86.8020%, 61.3725%, 0.7)
-}
-
-.tour__title {
-	font-family: "Adobe Caslon Pro";
-	margin-bottom: 0;
-}
-
-.tour__lead {
-	font-size: 1.2rem;
 }
 
 .tour--heart-of-chicago {
@@ -89,58 +130,21 @@ footer {
 	min-height: 100%;
 }
 
-.logo {
-	width: 20rem;
-	margin-bottom: 2rem;
-}
-
-.logo--sponsor {
-	width: 10rem;
-	padding-top: 1rem;
-}
-
-.overview {
-	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
-	margin-top: 3rem;
-	border: 2px solid hsla(3, 14%, 25%, 1.0);;
-	outline: 1px solid hsla(3, 14%, 25%, 1.0);;
+.tour__information {
+	height: 15rem;
+	text-align: right;
+	width: auto;
+	position: absolute;
+	right: 0;
+	margin-right: 4rem;
+	padding: 2rem;
+	border: 2px solid hsla(3, 14%, 25%, 1.0);
+	outline: 1px solid hsla(3, 14%, 25%, 1.0);
 	outline-offset: -10px;
-}
-
-.overview__title {
-	font-family: "Adobe Caslon Pro";
-	font-size: 6rem;
-	font-weight: 600;
-	margin-bottom: 1rem;
-	text-align: center;
-}
-
-.overview__lead {
-	font-size: 1.45rem;
-}
-
-.home__title {
-	font-family: "Adobe Caslon Pro";
-	font-size: 4rem;
-	font-weight: 600;
-}
-
-.button {
-	box-shadow: 2rem 2rem 2rem;
-	text-transform: uppercase;
-	display: inline-block;
-	background-color: hsla(0, 32%, 52%, 1);
-}
-
-.button--see-tours {
-	margin: 0 10rem 2rem 0;
-	font-size: 1.3rem;
+	background-color: hsla(39, 86.8020%, 61.3725%, 0.7)
 }
 
 
-.footer__copyright {
-	font-size: .7rem;
-}
 
 
 // Small screens
