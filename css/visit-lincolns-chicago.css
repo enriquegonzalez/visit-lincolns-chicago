@@ -23,7 +23,7 @@ footer {
 }
 
 	.logo--museum {
-		margin: 0;
+		margin: 0 0 2rem 0;
 	}
 
 	.logo--sponsor {
@@ -32,7 +32,6 @@ footer {
 
 .menu {
 	list-style: none;
-	margin: 2rem 0 2rem 0;
 }
 
 	.menu--site__item {
