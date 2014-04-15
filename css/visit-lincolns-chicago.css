@@ -37,10 +37,12 @@ footer {
 
 	.menu--site__item {
 		display: inline-block;
+		padding: 1rem;
 	}
 
 	.menu--tours__item {
 		display: inline-block;
+		padding: 1rem;
 	}
 
 .title {
