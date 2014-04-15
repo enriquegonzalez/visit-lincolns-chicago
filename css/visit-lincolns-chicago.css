@@ -32,6 +32,7 @@ footer {
 
 .menu {
 	list-style: none;
+	margin: 0;
 }
 
 	.menu--site__item {
@@ -166,7 +167,10 @@ html .tours {
 }
 
 
-
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	background: hsla(39, 86.8020%, 61.3725%, 1);
+	padding: 0;
+}
 
 // Small screens
 @media only screen { } /* Define mobile styles */
