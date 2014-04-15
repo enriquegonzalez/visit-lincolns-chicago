@@ -126,7 +126,7 @@ footer {
 }
 
 .button {
-	box-shadow: 2rem 2rem 2rem;
+	box-shadow: 2rem 2rem 2rem 
 	text-transform: uppercase;
 	display: inline-block;
 	background-color: hsla(0, 32%, 52%, 1);
@@ -138,7 +138,7 @@ footer {
 }
 
 
-.footer__copyright {
+.footer--overview__copyright {
 	font-size: .7rem;
 }
 
