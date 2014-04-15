@@ -56,10 +56,18 @@ footer {
 
 
 .button {
-	box-shadow: 2rem 2rem 2rem;
+/*	box-shadow: 2rem 2rem 2rem;*/	
 	text-transform: uppercase;
 	display: inline-block;
+	background-color: hsla(0, 20%, 52%, 1);
+}
+
+.button:hover {
 	background-color: hsla(0, 32%, 52%, 1);
+}
+
+.button:active {
+	background-color: hsla(0, 45%, 52%, 1);
 }
 
 
@@ -141,6 +149,7 @@ html .tours {
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
 	outline-offset: -10px;
+	background-color: hsla(39, 86.8020%, 61.3725%, 0.7);
 }
 
 .overview__title {
@@ -161,22 +170,13 @@ html .tours {
 	font-weight: 600;
 }
 
-.button {
-	box-shadow: 2rem 2rem 2rem 
-	text-transform: uppercase;
-	display: inline-block;
-	background-color: hsla(0, 32%, 52%, 1);
-}
-
 .button--see-tours {
 	margin: 0 10rem 2rem 0;
 	font-size: 1.3rem;
 }
 
-
 .footer--overview__copyright {
 	font-size: .7rem;
-	background-color: hsla(39, 86.8020%, 61.3725%, 0.7);
 }
 
 
