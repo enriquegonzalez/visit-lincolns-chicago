@@ -98,7 +98,8 @@ html .home {
 
 .home__overview {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
-	margin-top: 3rem;
+	margin-top: 6rem;
+	padding: 5rem;
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
 	outline-offset: -10px;
