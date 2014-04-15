@@ -32,25 +32,25 @@
     <div class="row">
       <div class="large-12 columns">
         <section class="introduction">
-          <header>
+          <header class="clearfix">
             <img src="img/logos/logo-chicago-history-museum.png" alt="Chicago History Museum Logo" class="logo logo--museum">
-             <nav>
+             <nav class="right">
               <ul class="menu menu--site">
-                <li class="menu--site__item"><a href="index.html">Home</a></li>
-                <li class="menu--site__item menu--site__item--active"><a href="tours.html">Tours</a></li>
-                <li class="menu--site__item"><a href="credits.html">Credits</a></li>
+                <li class="menu--site-section"><a href="index.html" class="button radius">Home</a></li>
+                <li class="menu--site-section menu--site-section--active"><a href="tours.html" class="button radius">Tours</a></li>
+                <li class="menu--site-section"><a href="credits.html" class="button radius">Credits</a></li>
               </ul>
             </nav>
             <h1 class="title title--site"><span class="hide">Chicago History Museum presents</span> Visit Lincoln’s Chicago</h1>
             <p class="section__lead">Tour 1860s Chicago, a dynamic young metropolis on the verge of greatness.</p>
           </header>
           <ul class="menu menu--tours">
-              <li class="menu--tours__item"><a href="#heart-of-chicago">The Heart of Chicago</a></li>
-              <li class="menu--tours__item"><a href="#commercial-district">The Commercial District</a></li>
-              <li class="menu--tours__item"><a href="#cultural-attractions">Cultural Attractions</a></li>
-              <li class="menu--tours__item"><a href="#waterways">Waterways</a></li>
-              <li class="menu--tours__item"><a href="#neighborhood-churches">Neighborhood Churches</a></li>
-              <li class="menu--tours__item"><a href="#south-side">The South Side</a></li>
+              <li class="menu--tour menu--tour--active"><a href="#">The Heart of Chicago</a></li>
+              <li class="menu--tour"><a href="tour-the-commercial-district.html">The Commercial District</a></li>
+              <li class="menu--tour"><a href="tour-cultural-attractions.html">Cultural Attractions</a></li>
+              <li class="menu--tour"><a href="tour-waterways.html">Waterways</a></li>
+              <li class="menu--tour"><a href="tour-neighborhood-churches.html">Neighborhood Churches</a></li>
+              <li class="menu--tour"><a href="tour-the-south-side.html">The South Side</a></li>
           </ul>
       </div>
     </div>
@@ -63,7 +63,15 @@
             <h1 class="tour__title">The Heart of Chicago</h1>
           </header>
           <p class="tour__lead">Beautiful Court House Square, the center of a vibrant city.</p>
+            <div data-magellan-expedition="fixed">
+              <dl class="menu menu--tour-stops">
+                <dd data-magellan-arrival="court-house-square" class="menu--tour-stop"><a href="#court-house-square">The Heart of Chicago</a></li>
+                <dd data-magellan-arrival="lasalle-street-from-court-house-square" class="menu--tour-stop"><a href="#lasalle-street-from-court-house-square">The Commercial District</a></li>
+                <dd data-magellan-arrival="chamber-of-commerce" class="menu--tour-stop"><a href="#chamber-of-commerce">Cultural Attractions</a></li>
+              </dl>
+            </div>
             <section class="tour__stop">
+
             </section>
         </section>
 
