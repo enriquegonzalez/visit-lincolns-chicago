@@ -68,6 +68,15 @@ footer {
 		font-size: 2.4rem;
 	}
 
+	.title--tour-stop {
+		font-size: 2rem;
+	}
+
+	.title--tour-stop-detail {
+		color: #fff;
+		font-size: 1.75rem;
+	}
+
 
 .section__lead {
 	font-size: 1.45rem;
