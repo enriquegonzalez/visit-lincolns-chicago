@@ -73,11 +73,6 @@ footer {
 	}
 
 	.title--tour-stop-detail {
-		color: #fff;
-		font-size: 1.75rem;
-	}
-
-	.title--tour-stop-detail--small {
 		font-size: 1.75rem;
 	}
 
@@ -201,18 +196,7 @@ html .tours {
 // Small screens
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
-
-/* .orbit-slides-container {height: auto !important;}
-              .orbit-slides-container > * {
-	             position: relative !important;
-                  margin-left: 0% !important;
-                  opacity:1 !important;
-                  -webkit-transform:none !important;
-}*/
-
-
-	} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
