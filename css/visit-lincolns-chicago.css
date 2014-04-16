@@ -186,10 +186,18 @@ html .tours {
 	font-size: 1.1rem;
 }
 
-
-[data-magellan-expedition], [data-magellan-expedition-clone] {
+/* FOUNDATION OVERRIDEs */
+[data-magellan-expedition],
+[data-magellan-expedition-clone] {
 	background: hsla(39, 86.8020%, 61.3725%, 1);
 	padding: 0;
+}
+
+.orbit-container .orbit-prev, 
+.orbit-container .orbit-next,
+.orbit-container .orbit-prev:hover, 
+.orbit-container .orbit-next:hover {
+	background-color: hsla(0, 20%, 52%, 1);
 }
 
 
