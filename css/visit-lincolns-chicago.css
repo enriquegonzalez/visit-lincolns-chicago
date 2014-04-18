@@ -144,57 +144,57 @@ html .tours {
 	margin: 5rem 0 5rem 0;
 }
 
-.tour--heart-of-chicago {
-	background: url(../img/backgrounds/heart-of-chicago.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--heart-of-chicago {
+		background: url(../img/backgrounds/heart-of-chicago.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour--commercial-district {
-	background: url(../img/backgrounds/commercial-district.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--commercial-district {
+		background: url(../img/backgrounds/commercial-district.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour--cultural-attractions {
-	background: url(../img/backgrounds/cultural-attractions.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--cultural-attractions {
+		background: url(../img/backgrounds/cultural-attractions.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour--waterways {
-	background: url(../img/backgrounds/chicagos-waterways.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--waterways {
+		background: url(../img/backgrounds/chicagos-waterways.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour--churches {
-	background: url(../img/backgrounds/churches-and-neighborhoods.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--churches {
+		background: url(../img/backgrounds/churches-and-neighborhoods.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour--south-side {
-	background: url(../img/backgrounds/south-side.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 100%;
-}
+	.tour--south-side {
+		background: url(../img/backgrounds/south-side.jpg) no-repeat center center;
+		background-size: cover;
+		min-height: 100%;
+	}
 
-.tour__information {
-	position: relative;
-	left: 15rem;
-	top: 17rem;
-	padding: 2rem;
-	border: 2px solid hsla(3, 14%, 25%, 1.0);
-	outline: 1px solid hsla(3, 14%, 25%, 1.0);
-	outline-offset: -10px;
-	background-color: hsla(39, 86.8020%, 61.3725%, 0.7);
-	width: 42rem;
-}
+	.tour__information {
+		position: relative;
+		left: 15rem;
+		top: 17rem;
+		padding: 2rem;
+		border: 2px solid hsla(3, 14%, 25%, 1.0);
+		outline: 1px solid hsla(3, 14%, 25%, 1.0);
+		outline-offset: -10px;
+		background-color: hsla(39, 86.8020%, 61.3725%, 0.7);
+		width: 42rem;
+	}
 
-.tour__lead {
-	font-size: 1.1rem;
-}
+	.tour__lead {
+		font-size: 1.1rem;
+	}
 
 /* FOUNDATION OVERRIDEs */
 [data-magellan-expedition],
@@ -225,6 +225,12 @@ html .tours {
 		font-weight: 800;
 	}
 
+	.title--tour {
+		font-size: 1.75rem;
+		text-align: center;
+
+	}
+
 	.section__lead {
 		font-size: 1.2rem;
 	} 
@@ -242,10 +248,32 @@ html .tours {
 		font-size: .7rem;
 	}
 
+	.tour {
+		height: auto;
+	}
+
+		.tour__information {
+			position: relative;
+			left: 0;
+			top: 0;
+			width: auto;
+		}
+
+
+
 	/* FOUNDATION OVERRIDEs */
 	.orbit-container .orbit-prev, 
 	.orbit-container .orbit-next {
 		top: 25%;
+	}
+
+	/*.right {
+		float: none !important;
+	}*/
+
+	.button {
+		font-size: .85rem;
+		width: 100%;
 	}
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -259,6 +287,12 @@ html .tours {
 		font-size: 3.75rem;
 	}
 
+	.tour__information {
+		left: 5rem;
+		top: 17rem;
+		width: 35rem;
+	}
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
@@ -268,6 +302,12 @@ html .tours {
 
 	.title--site--home {
 		font-size: 5rem;
+	}
+
+	.tour__information {
+		left: 12rem;
+		top: 17rem;
+		width: 42rem;
 	}
 
 } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
