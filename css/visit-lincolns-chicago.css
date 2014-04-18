@@ -234,6 +234,10 @@ html .tours {
 		width: 100%;
 	}
 
+	.copyright {
+		font-size: .7rem;
+	}
+
 	/* FOUNDATION OVERRIDEs */
 	.orbit-container .orbit-prev, 
 	.orbit-container .orbit-next {
