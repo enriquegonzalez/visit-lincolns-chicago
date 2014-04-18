@@ -238,6 +238,10 @@ html .tours {
 		font-size: .7rem;
 	}
 
+	.credits__sponsor--title {
+		font-size: .7rem;
+	}
+
 	/* FOUNDATION OVERRIDEs */
 	.orbit-container .orbit-prev, 
 	.orbit-container .orbit-next {
