@@ -141,7 +141,7 @@ html .tours {
 
 .tour {
 	height: 52rem;
-	margin: 5rem 0 5rem 0;
+	margin: 0 0 5rem 0;
 }
 
 	.tour--heart-of-chicago {
@@ -266,10 +266,6 @@ html .tours {
 	.orbit-container .orbit-next {
 		top: 25%;
 	}
-
-	/*.right {
-		float: none !important;
-	}*/
 
 	.button {
 		font-size: .85rem;
