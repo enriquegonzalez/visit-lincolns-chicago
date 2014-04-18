@@ -23,17 +23,17 @@ section {
 	}
 
 	.logo--sponsor {
-		width: 10rem;
+		width: 13rem;
 }
 
 
 .credits {
 	padding-bottom: 0;
-	text-align: right;
 }
 
 	.credits__sponsor {
 		margin-bottom: 1rem;
+		text-align: center;
 	}
 
 	.credits__sponsor--title {
@@ -114,6 +114,8 @@ section {
 
 .copyright {
 	font-size: .7rem;
+	margin: 0 auto
+	text-align: right;
 }
 
 html .home {
