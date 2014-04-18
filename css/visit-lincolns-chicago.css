@@ -23,8 +23,23 @@ section {
 	}
 
 	.logo--sponsor {
-		width: 25rem;
+		width: 10rem;
+}
+
+
+.credits {
+	padding-bottom: 0;
+	text-align: right;
+}
+
+	.credits__sponsor {
+		margin-bottom: 1rem;
 	}
+
+	.credits__sponsor--title {
+		margin-bottom: .5rem;
+	}
+
 
 .menu {
 	list-style: none;
@@ -178,14 +193,6 @@ html .tours {
 	font-size: 1.1rem;
 }
 
-.credits {
-	margin: 1rem;
-}
-
-.credits__sponsor {
-	margin-bottom: 5rem;
-}
-
 /* FOUNDATION OVERRIDEs */
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
@@ -213,6 +220,15 @@ html .tours {
 	.title--site--home {
 		font-size: 1.75rem;
 		font-weight: 800;
+	}
+
+	.section__lead {
+		font-size: 1.2rem;
+	} 
+
+	.button--overview {
+		margin: 0;
+		width: 100%;
 	}
 
 	/* FOUNDATION OVERRIDEs */
