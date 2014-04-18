@@ -14,7 +14,18 @@ section {
 }
 
 a {
-	color: #fff;
+	color: hsla(0,0%,100%,1);
+	padding: .5rem;
+}
+
+	a:hover {
+		color: hsla(0,0%,100%,1);
+		background-color: hsla(0,0%,100%,.25);
+		border-radius: .25rem;
+	}
+
+dl dd {
+	margin-bottom: 0;
 }
 
 
@@ -55,11 +66,19 @@ a {
 		padding: 0 1rem;
 	}
 
+	.menu--tours {
+		background: hsla(206,100%,47%,.5);		
+	}
+
 	.menu--tour {
 		display: inline-block;
 		padding: .75rem;
-		background: hsla(206,100%,47%,.5);
 	}
+
+		.menu--tour--active {
+			background-color: hsla(0,0%,100%,.25);
+			border-radius: .25rem;
+		}
 
 	.menu--tour-stop {
 		display: inline-block;
