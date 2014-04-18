@@ -81,6 +81,7 @@ section {
 	text-transform: uppercase;
 	display: inline-block;
 	background-color: hsla(0, 20%, 52%, 1);
+	margin-bottom: 0;
 }
 
 	.button:hover {
@@ -121,7 +122,8 @@ html .tours {
 }
 
 .tour {
-	height: 50rem;
+	height: 52rem;
+	margin: 5rem 0 5rem 0;
 }
 
 .tour--heart-of-chicago {
@@ -161,12 +163,9 @@ html .tours {
 }
 
 .tour__information {
-	height: 15rem;
-	text-align: right;
-	width: auto;
 	position: absolute;
-	right: 0;
-	margin-right: 4rem;
+	right: 4rem;
+	top: 0;
 	padding: 2rem;
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
