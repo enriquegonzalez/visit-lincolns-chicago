@@ -13,6 +13,10 @@ section {
 	padding: 2rem 0rem 2rem 0rem;
 }
 
+a {
+	color: #fff;
+}
+
 
 .logo {
 	width: 20rem;
@@ -53,7 +57,8 @@ section {
 
 	.menu--tour {
 		display: inline-block;
-		padding: 1rem;
+		padding: .75rem;
+		background: hsla(206,100%,47%,.5);
 	}
 
 	.menu--tour-stop {
