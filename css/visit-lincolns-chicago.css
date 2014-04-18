@@ -23,8 +23,23 @@ section {
 	}
 
 	.logo--sponsor {
-		width: 10rem;
+		width: 12rem;
+}
+
+
+.credits {
+	padding-bottom: 0;
+}
+
+	.credits__sponsor {
+		margin-bottom: 1rem;
+		text-align: center;
 	}
+
+	.credits__sponsor--title {
+		font-size: .7rem;
+	}
+
 
 .menu {
 	list-style: none;
@@ -99,7 +114,9 @@ section {
 
 
 .copyright {
-	font-size: .7rem;
+	font-size: .8rem;
+	margin: 0 auto
+	text-align: right;
 }
 
 html .home {
@@ -109,7 +126,8 @@ html .home {
 
 .home__overview {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
-	margin-top: 6rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 	padding: 6rem;
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
@@ -204,6 +222,19 @@ html .tours {
 	.title--site--home {
 		font-size: 1.75rem;
 		font-weight: 800;
+	}
+
+	.section__lead {
+		font-size: 1.2rem;
+	} 
+
+	.button--overview {
+		margin: 0;
+		width: 100%;
+	}
+
+	.copyright {
+		font-size: .7rem;
 	}
 
 	/* FOUNDATION OVERRIDEs */
