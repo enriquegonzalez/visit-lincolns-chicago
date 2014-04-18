@@ -23,7 +23,7 @@ section {
 	}
 
 	.logo--sponsor {
-		width: 10rem;
+		width: 25rem;
 	}
 
 .menu {
@@ -178,6 +178,14 @@ html .tours {
 
 .tour__lead {
 	font-size: 1.1rem;
+}
+
+.credits {
+	margin: 1rem;
+}
+
+.credits__sponsor {
+	margin-bottom: 5rem;
 }
 
 /* FOUNDATION OVERRIDEs */
