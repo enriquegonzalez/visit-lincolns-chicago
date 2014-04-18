@@ -182,8 +182,8 @@ html .tours {
 
 .tour__information {
 	position: relative;
-	right: 4rem;
-	top: 1rem;
+	left: 15rem;
+	top: 17rem;
 	padding: 2rem;
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
