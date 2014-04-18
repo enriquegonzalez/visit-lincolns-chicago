@@ -196,6 +196,12 @@ html .tours {
 		font-size: 1.1rem;
 	}
 
+	.tour__stop {
+		margin-bottom: 2rem;
+		padding: 1rem 2rem;
+		background-color:hsla(360, 21%, 100%, 0.25);
+	}
+
 /* FOUNDATION OVERRIDEs */
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
