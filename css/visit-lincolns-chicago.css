@@ -23,7 +23,7 @@ section {
 	}
 
 	.logo--sponsor {
-		width: 13rem;
+		width: 12rem;
 }
 
 
@@ -37,7 +37,7 @@ section {
 	}
 
 	.credits__sponsor--title {
-		margin-bottom: .5rem;
+		font-size: .7rem;
 	}
 
 
@@ -113,7 +113,7 @@ section {
 
 
 .copyright {
-	font-size: .7rem;
+	font-size: .8rem;
 	margin: 0 auto
 	text-align: right;
 }
@@ -125,7 +125,8 @@ html .home {
 
 .home__overview {
 	background-color: hsla(39, 86.8020%, 61.3725%, 0.8);
-	margin-top: 6rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 	padding: 6rem;
 	border: 2px solid hsla(3, 14%, 25%, 1.0);
 	outline: 1px solid hsla(3, 14%, 25%, 1.0);
