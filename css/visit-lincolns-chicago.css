@@ -158,7 +158,7 @@ dl dd {
 
 
 .copyright {
-	font-size: .8rem;
+	font-size: 1rem;
 	margin: 0 auto
 	text-align: right;
 }
@@ -283,9 +283,19 @@ html .tours {
 		padding: 2rem;
 	}
 
+	.logo--museum {
+		margin: 0 0 2rem 0;
+		width: 100%
+	}
+
 	.title--site--home {
 		font-size: 1.75rem;
 		font-weight: 800;
+	}
+
+	.title--site {
+		margin-top: 2rem;
+		font-size: 2.2rem;
 	}
 
 	.title--tour {
@@ -321,6 +331,11 @@ html .tours {
 			top: 0;
 			width: auto;
 		}
+
+	nav.right {
+		float: none !important;
+		text-align: center;
+	}
 
 	.menu--tours {
 		background: none;
