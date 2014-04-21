@@ -244,7 +244,7 @@ html .tours {
 	.tour__stop {
 		margin-bottom: 2rem;
 		padding: 1rem 2rem;
-		background: url(../img/backgrounds/postcard.png) no-repeat top left;
+		background: url(../img/backgrounds/postcard.jpg) no-repeat top left;
 		background-size: cover;
 		border-radius: 2%;
 		/*background-color: hsla(52, 100%, 91%, .6);*/
