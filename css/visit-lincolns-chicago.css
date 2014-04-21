@@ -70,6 +70,10 @@ dl dd {
 		background: hsla(206,100%,47%,.5);		
 	}
 
+	.menu--tour-stops {
+		background: hsla(206,100%,47%,.5);		
+	}
+
 	.menu--tour {
 		display: inline-block;
 		padding: .75rem;
