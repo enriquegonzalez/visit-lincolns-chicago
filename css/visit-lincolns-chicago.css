@@ -171,6 +171,7 @@ html .tours {
 .tour {
 	height: 52rem;
 	margin: 0 0 5rem 0;
+	padding-top: 0;
 }
 
 	.tour--heart-of-chicago {
