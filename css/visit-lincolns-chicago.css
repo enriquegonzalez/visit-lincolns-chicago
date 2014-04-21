@@ -86,7 +86,7 @@ dl dd {
 
 	.menu--tour-stop {
 		display: inline-block;
-		padding: 1rem;
+		padding: .75rem;
 	}
 
 		.menu--tour--active {
@@ -98,7 +98,7 @@ dl dd {
 	.menu--tour-list {
 		background: hsla(0, 20%, 52%, 1);
 		display: inline-block;
-		padding: 1rem;
+		padding: .75rem;
 		text-transform: uppercase;			
 	}
 
