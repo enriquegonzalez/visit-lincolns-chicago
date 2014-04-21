@@ -5,6 +5,4 @@ $("dl.menu").on("click", "dd > a", function() {
 	$menuItem.removeClass("menu--tour--active")
 	$(this).addClass("menu--tour--active"); 
 
-	
-
 });
