@@ -98,7 +98,8 @@ dl dd {
 	.menu--tour-list {
 		background: hsla(0, 20%, 52%, 1);
 		display: inline-block;
-		padding: 1rem;		
+		padding: 1rem;
+		text-transform: uppercase;			
 	}
 
 .title {
@@ -274,6 +275,10 @@ html .tours {
 
 @media only screen and (max-width: 40em) { 
 
+	a {
+		display: block;
+	}
+
 	.home__overview {
 		padding: 2rem;
 	}
@@ -317,6 +322,37 @@ html .tours {
 			width: auto;
 		}
 
+	.menu--tours {
+		background: none;
+	}
+
+		.menu--tour {
+			background: hsla(206,100%,47%,.5);
+			display: block;
+			margin-bottom: .25rem;
+			padding: 0;
+			text-align: center;
+		}
+
+	.menu--tour-stops {
+		background: none;
+	}
+
+		.menu--tour-stop {
+			background: hsla(206,100%,47%,.5);
+			display: block;
+			margin-bottom: .25rem;
+			padding: 0;
+			text-align: center;
+		}
+
+	.menu--tour-list {
+		background: hsla(0, 20%, 52%, 1);
+		display: block;
+		margin-bottom: .5rem;
+		padding: 0;
+		text-align: center;	
+	}
 
 
 	/* FOUNDATION OVERRIDEs */
