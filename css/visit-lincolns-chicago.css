@@ -243,8 +243,8 @@ html .tours {
 	.tour__stop {
 		margin-bottom: 2rem;
 		padding: 1rem 2rem;
-		background: url(../img/backgrounds/postcard.png) no-repeat center center;
-		background-size: cover;
+		background: url(../img/backgrounds/postcard.png) no-repeat top left;
+		background-size: 100%;
 		border-radius: 2%;
 		/*background-color: hsla(52, 100%, 91%, .6);*/
 		/*background-color:hsla(52, 100%, 86%, .55);*/
