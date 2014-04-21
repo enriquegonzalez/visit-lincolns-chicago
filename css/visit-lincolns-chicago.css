@@ -95,6 +95,12 @@ dl dd {
 			border-radius: .25rem;
 		}
 
+	.menu--tour-list {
+		background: hsla(0, 20%, 52%, 1);
+		display: inline-block;
+		padding: 1rem;		
+	}
+
 .title {
 	font-family: "Adobe Caslon Pro";
 }
