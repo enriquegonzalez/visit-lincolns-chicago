@@ -422,6 +422,11 @@ html .tours {
 		text-align: center;
 	}
 
+	/* FOUNDATION OVERRIDEs */
+	.row {
+		max-width: 62.5em;
+	}
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
