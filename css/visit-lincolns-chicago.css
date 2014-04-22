@@ -400,13 +400,26 @@ html .tours {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
 	.title--site--home {
-		font-size: 3.75rem;
+		font-size: 3.5rem;
 	}
 
 	.tour__information {
 		left: 5rem;
 		top: 17rem;
 		width: 35rem;
+	}
+
+	.menu--tours {
+		background: none;
+		display: none;
+	}
+
+	.menu--tour-stop {
+		background: hsla(206,100%,47%,.5);
+		display: none;
+		margin-bottom: .25rem;
+		padding: 0;
+		text-align: center;
 	}
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
