@@ -377,11 +377,6 @@ html .tours {
 		text-align: center;	
 	}
 
-	a.button {
-		font-size: .55rem;
-	}
-
-
 	/* FOUNDATION OVERRIDEs */
 	.orbit-container .orbit-prev, 
 	.orbit-container .orbit-next {
@@ -391,6 +386,10 @@ html .tours {
 	.button {
 		font-size: .85rem;
 		width: 100%;
+	}
+
+	.button--tour__action {
+		font-size: .55rem;
 	}
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
