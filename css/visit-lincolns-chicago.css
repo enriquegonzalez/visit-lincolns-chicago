@@ -377,8 +377,8 @@ html .tours {
 		text-align: center;	
 	}
 
-	.button {
-		font-size: .2rem;
+	a.button {
+		font-size: .55rem;
 	}
 
 
