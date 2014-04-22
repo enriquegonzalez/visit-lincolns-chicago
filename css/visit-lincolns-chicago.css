@@ -422,9 +422,23 @@ html .tours {
 		text-align: center;
 	}
 
+	.tour__stop {
+		width: 100%;
+	}
+
+	.tour__stop--slideshow {
+		width: 50%;
+		margin: 0 auto;
+	}
+
 	/* FOUNDATION OVERRIDEs */
 	.row {
 		max-width: 62.5em;
+	}
+
+	.orbit-container .orbit-prev, 
+	.orbit-container .orbit-next {
+		top: 25%;
 	}
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
