@@ -269,6 +269,10 @@ html .tours {
 	background-color: hsla(0, 20%, 52%, 1);
 }
 
+.orbit-container .orbit-slide-number {
+	color: #222;
+}
+
 
 // Small screens
 @media only screen { } /* Define mobile styles */
