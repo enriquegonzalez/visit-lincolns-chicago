@@ -458,6 +458,21 @@ html .tours {
 		width: 42rem;
 	}
 
+	.tour__stop {
+		width: 100%;
+	}
+
+	.tour__stop--slideshow {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/* FOUNDATION OVERRIDEs */
+	.orbit-container .orbit-prev, 
+	.orbit-container .orbit-next {
+		top: 40%;
+	}
+
 } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
