@@ -463,14 +463,14 @@ html .tours {
 	}
 
 	.tour__stop--slideshow {
-		width: 80%;
+		width: 70%;
 		margin: 0 auto;
 	}
 
 	/* FOUNDATION OVERRIDEs */
 	.orbit-container .orbit-prev, 
 	.orbit-container .orbit-next {
-		top: 40%;
+		top: 35%;
 	}
 
 } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
